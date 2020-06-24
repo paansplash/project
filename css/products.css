@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+  }
+
+  /*--- navigation bar ---*/
+  .navbar {
+    background:#6ab446;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+ 
+  .navbar-collapse {
+    justify-content: flex-end;
+  }  
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+

@@ -1,0 +1,94 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+  }
+
+  /*--- navigation bar ---*/
+  .navbar {
+    background:#6ab446;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+ 
+  .navbar-collapse {
+    justify-content: flex-end;
+  }  
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+   
+/* mobile
+   */
+
+   @media (max-width: 575.98px) {
+    .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+    }
+    
+    .description h1 {
+      font-size: 2em;
+    }
+    
+    .description p {
+      font-size: 1.2rem;
+    }
+    
+    .features {
+      margin: 0;
+    }
+  }

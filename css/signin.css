@@ -1,0 +1,48 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9;
+}
+
+/*--- navigation bar ---*/
+.navbar {
+  background:#316816;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}  
+
+.wrapper{ width: 350px; padding: 20px; }
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
